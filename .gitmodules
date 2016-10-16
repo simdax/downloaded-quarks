@@ -1,0 +1,24 @@
+[submodule "timeline"]
+	path = timeline
+	url = git@github.com:simdax/timeline.git
+[submodule "supercollider-sfz"]
+	path = supercollider-sfz
+	url = https://github.com/simdax/supercollider-sfz
+[submodule "sonatinaSampler"]
+	path = sonatinaSampler
+	url = https://github.com/simdax/sonatinaSampler
+[submodule "quarks"]
+	path = quarks
+	url = https://github.com/supercollider-quarks/quarks.git
+[submodule "protoGui"]
+	path = protoGui
+	url = git@github.com:simdax/protoGui.git
+[submodule "patternsSC"]
+	path = patternsSC
+	url = git@github.com:simdax/patternsSC
+[submodule "niouPatGui"]
+	path = niouPatGui
+	url = https://github.com/simdax/niouPatGui
+[submodule "miscellaneous"]
+	path = miscellaneous
+	url = https://github.com/simdax/miscellaneous

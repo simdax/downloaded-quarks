@@ -1,0 +1,26 @@
+TypeDef{
+	*initClass{
+		StartUp.add({
+
+
+			var a=Window("server", Rect(1800,600, 200, 200)).front;
+			a.addFlowLayout
+			s.makeGui(a);
+			.view.alwaysOnTop_(true);
+			
+			SynthDescLib.global.browse;
+			Event.addEventType(\appo,{ arg self;
+				var dur, mtranspose;
+				~degree=(~degree+~mtranspose).degreeToKey(~scale?[0,2,4],7);
+				~scale=~mode ? [0,2,4,5,7,9,11];
+				mtranspose=Pseq(Array.rand(~appo?0, -1,1));
+				dur=(~dur!(~appo)).normalizeSum * ~dur;
+				~type=\note;
+				Pbind(\dur, dur.pseq, \mtranspose, mtranspose)
+				.trace(\mtranspose)
+				.play(protoEvent:currentEnvironment);
+				//	~type=\note; currentEnvironment.play
+			});
+	
+}			
+}}

@@ -1,0 +1,11 @@
+(Event.addEventType(\appo,{ arg self;
+	var dur;
+	~degree=(~degree+~mtranspose).degreeToKey(~scale?[0,2,4],7);
+	~scale=~mode ? [0,2,4,5,7,9,11];
+	~mtranspose=Array.rand(~appo?0, -1,1);
+	dur=(~dur!(1+~appo)).normalizeSum * ~dur;
+	~type=\note;
+	Pbind(\dur, dur.pseq).play(protoEvent:currentEnvironment);
+	//	~type=\note; currentEnvironment.play
+});
+)
