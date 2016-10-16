@@ -22,3 +22,33 @@
 [submodule "miscellaneous"]
 	path = miscellaneous
 	url = https://github.com/simdax/miscellaneous
+[submodule "JITLibExtensions"]
+	path = JITLibExtensions
+	url = https://github.com/supercollider-quarks/JITLibExtensions
+[submodule "PFF"]
+	path = PFF
+	url = https://github.com/simdax/PFF
+[submodule "Require"]
+	path = Require
+	url = https://github.com/scztt/Require.quark
+[submodule "SynthDefPool"]
+	path = SynthDefPool
+	url = https://github.com/supercollider-quarks/SynthDefPool
+[submodule "TabbedView2"]
+	path = TabbedView2
+	url = https://github.com/supercollider-quarks/TabbedView2
+[submodule "TabbedView2_QT"]
+	path = TabbedView2_QT
+	url = https://github.com/supercollider-quarks/TabbedView2_QT
+[submodule "UnitTesting"]
+	path = UnitTesting
+	url = https://github.com/supercollider-quarks/UnitTesting
+[submodule "WarpExt"]
+	path = WarpExt
+	url = https://github.com/supercollider-quarks/WarpExt
+[submodule "XML"]
+	path = XML
+	url = https://github.com/supercollider-quarks/XML
+[submodule "Zyn"]
+	path = Zyn
+	url = https://github.com/simdax/Zyn
