@@ -52,3 +52,9 @@
 [submodule "Zyn"]
 	path = Zyn
 	url = https://github.com/simdax/Zyn
+[submodule "app"]
+	path = app
+	url = git@github.com:simdax/app.git
+[submodule "ext"]
+	path = ext
+	url = git@github.com:simdax/ext
